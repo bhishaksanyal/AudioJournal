@@ -12,7 +12,7 @@
 		DB930D6128BD0D310014A619 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB930D6028BD0D310014A619 /* AppDelegate.m */; };
 		DB930D6428BD0D310014A619 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB930D6328BD0D310014A619 /* SceneDelegate.m */; };
 		DB930D6728BD0D310014A619 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB930D6628BD0D310014A619 /* ViewController.m */; };
-		DB930D6A28BD0D310014A619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB930D6828BD0D310014A619 /* Main.storyboard */; };
+		DB930D6A28BD0D310014A619 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB930D6828BD0D310014A619 /* Auth.storyboard */; };
 		DB930D6D28BD0D310014A619 /* AudioJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB930D6B28BD0D310014A619 /* AudioJournal.xcdatamodeld */; };
 		DB930D6F28BD0D320014A619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB930D6E28BD0D320014A619 /* Assets.xcassets */; };
 		DB930D7228BD0D320014A619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB930D7028BD0D320014A619 /* LaunchScreen.storyboard */; };
@@ -56,7 +56,7 @@
 		DB930D6328BD0D310014A619 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		DB930D6528BD0D310014A619 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DB930D6628BD0D310014A619 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DB930D6928BD0D310014A619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB930D6928BD0D310014A619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Auth.storyboard; sourceTree = "<group>"; };
 		DB930D6C28BD0D310014A619 /* AudioJournal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AudioJournal.xcdatamodel; sourceTree = "<group>"; };
 		DB930D6E28BD0D320014A619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB930D7128BD0D320014A619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,7 +108,6 @@
 				C84BF8E20F11FB2DDC2F8F93 /* Pods-AudioJournalTests.debug.xcconfig */,
 				FF1B9354AC5619CE558F22E0 /* Pods-AudioJournalTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -120,6 +119,74 @@
 				625DDB415BAEAC08323EF963 /* Pods_AudioJournalTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB86791728BD20AB00CC77C3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DB86791F28BD21C000CC77C3 /* Super */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DB86791828BD20B500CC77C3 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				DB86791E28BD217E00CC77C3 /* Auth */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		DB86791928BD20BF00CC77C3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		DB86791A28BD20CB00CC77C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB86791B28BD20E500CC77C3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DB930D6B28BD0D310014A619 /* AudioJournal.xcdatamodeld */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		DB86791C28BD20F400CC77C3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DB930D7028BD0D320014A619 /* LaunchScreen.storyboard */,
+				DB930D6828BD0D310014A619 /* Auth.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DB86791D28BD210400CC77C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB86791E28BD217E00CC77C3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		DB86791F28BD21C000CC77C3 /* Super */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Super;
 			sourceTree = "<group>";
 		};
 		DB930D5328BD0D310014A619 = {
@@ -151,14 +218,18 @@
 				DB930D6028BD0D310014A619 /* AppDelegate.m */,
 				DB930D6228BD0D310014A619 /* SceneDelegate.h */,
 				DB930D6328BD0D310014A619 /* SceneDelegate.m */,
+				DB86791728BD20AB00CC77C3 /* Common */,
+				DB86791B28BD20E500CC77C3 /* Entities */,
+				DB86791828BD20B500CC77C3 /* Presenters */,
+				DB86791D28BD210400CC77C3 /* Resources */,
+				DB86791928BD20BF00CC77C3 /* Router */,
+				DB86791C28BD20F400CC77C3 /* Storyboards */,
 				DB930D6528BD0D310014A619 /* ViewController.h */,
 				DB930D6628BD0D310014A619 /* ViewController.m */,
-				DB930D6828BD0D310014A619 /* Main.storyboard */,
+				DB86791A28BD20CB00CC77C3 /* Views */,
 				DB930D6E28BD0D320014A619 /* Assets.xcassets */,
-				DB930D7028BD0D320014A619 /* LaunchScreen.storyboard */,
-				DB930D7328BD0D320014A619 /* Info.plist */,
 				DB930D7428BD0D320014A619 /* main.m */,
-				DB930D6B28BD0D310014A619 /* AudioJournal.xcdatamodeld */,
+				DB930D7328BD0D320014A619 /* Info.plist */,
 			);
 			path = AudioJournal;
 			sourceTree = "<group>";
@@ -290,7 +361,7 @@
 			files = (
 				DB930D7228BD0D320014A619 /* LaunchScreen.storyboard in Resources */,
 				DB930D6F28BD0D320014A619 /* Assets.xcassets in Resources */,
-				DB930D6A28BD0D310014A619 /* Main.storyboard in Resources */,
+				DB930D6A28BD0D310014A619 /* Auth.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,12 +530,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB930D6828BD0D310014A619 /* Main.storyboard */ = {
+		DB930D6828BD0D310014A619 /* Auth.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DB930D6928BD0D310014A619 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Auth.storyboard;
 			sourceTree = "<group>";
 		};
 		DB930D7028BD0D320014A619 /* LaunchScreen.storyboard */ = {
@@ -601,7 +672,7 @@
 				INFOPLIST_FILE = AudioJournal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Auth;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -629,7 +700,7 @@
 				INFOPLIST_FILE = AudioJournal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Auth;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
