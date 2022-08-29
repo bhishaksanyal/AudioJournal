@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB930D6128BD0D310014A619 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB930D6028BD0D310014A619 /* AppDelegate.m */; };
+		DB930D6428BD0D310014A619 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB930D6328BD0D310014A619 /* SceneDelegate.m */; };
+		DB930D6728BD0D310014A619 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB930D6628BD0D310014A619 /* ViewController.m */; };
+		DB930D6A28BD0D310014A619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB930D6828BD0D310014A619 /* Main.storyboard */; };
+		DB930D6D28BD0D310014A619 /* AudioJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB930D6B28BD0D310014A619 /* AudioJournal.xcdatamodeld */; };
+		DB930D6F28BD0D320014A619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB930D6E28BD0D320014A619 /* Assets.xcassets */; };
+		DB930D7228BD0D320014A619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB930D7028BD0D320014A619 /* LaunchScreen.storyboard */; };
+		DB930D7528BD0D320014A619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB930D7428BD0D320014A619 /* main.m */; };
+		DB930D7F28BD0D320014A619 /* AudioJournalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB930D7E28BD0D320014A619 /* AudioJournalTests.m */; };
+		DB930D8928BD0D320014A619 /* AudioJournalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB930D8828BD0D320014A619 /* AudioJournalUITests.m */; };
+		DB930D8B28BD0D320014A619 /* AudioJournalUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB930D8A28BD0D320014A619 /* AudioJournalUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB930D7B28BD0D320014A619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB930D5428BD0D310014A619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB930D5B28BD0D310014A619;
+			remoteInfo = AudioJournal;
+		};
+		DB930D8528BD0D320014A619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB930D5428BD0D310014A619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB930D5B28BD0D310014A619;
+			remoteInfo = AudioJournal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB930D5C28BD0D310014A619 /* AudioJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB930D5F28BD0D310014A619 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB930D6028BD0D310014A619 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB930D6228BD0D310014A619 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DB930D6328BD0D310014A619 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DB930D6528BD0D310014A619 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB930D6628BD0D310014A619 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB930D6928BD0D310014A619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB930D6C28BD0D310014A619 /* AudioJournal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AudioJournal.xcdatamodel; sourceTree = "<group>"; };
+		DB930D6E28BD0D320014A619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB930D7128BD0D320014A619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB930D7328BD0D320014A619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB930D7428BD0D320014A619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB930D7A28BD0D320014A619 /* AudioJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB930D7E28BD0D320014A619 /* AudioJournalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioJournalTests.m; sourceTree = "<group>"; };
+		DB930D8428BD0D320014A619 /* AudioJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB930D8828BD0D320014A619 /* AudioJournalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioJournalUITests.m; sourceTree = "<group>"; };
+		DB930D8A28BD0D320014A619 /* AudioJournalUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioJournalUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB930D5928BD0D310014A619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB930D7728BD0D320014A619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB930D8128BD0D320014A619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB930D5328BD0D310014A619 = {
+			isa = PBXGroup;
+			children = (
+				DB930D5E28BD0D310014A619 /* AudioJournal */,
+				DB930D7D28BD0D320014A619 /* AudioJournalTests */,
+				DB930D8728BD0D320014A619 /* AudioJournalUITests */,
+				DB930D5D28BD0D310014A619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB930D5D28BD0D310014A619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB930D5C28BD0D310014A619 /* AudioJournal.app */,
+				DB930D7A28BD0D320014A619 /* AudioJournalTests.xctest */,
+				DB930D8428BD0D320014A619 /* AudioJournalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB930D5E28BD0D310014A619 /* AudioJournal */ = {
+			isa = PBXGroup;
+			children = (
+				DB930D5F28BD0D310014A619 /* AppDelegate.h */,
+				DB930D6028BD0D310014A619 /* AppDelegate.m */,
+				DB930D6228BD0D310014A619 /* SceneDelegate.h */,
+				DB930D6328BD0D310014A619 /* SceneDelegate.m */,
+				DB930D6528BD0D310014A619 /* ViewController.h */,
+				DB930D6628BD0D310014A619 /* ViewController.m */,
+				DB930D6828BD0D310014A619 /* Main.storyboard */,
+				DB930D6E28BD0D320014A619 /* Assets.xcassets */,
+				DB930D7028BD0D320014A619 /* LaunchScreen.storyboard */,
+				DB930D7328BD0D320014A619 /* Info.plist */,
+				DB930D7428BD0D320014A619 /* main.m */,
+				DB930D6B28BD0D310014A619 /* AudioJournal.xcdatamodeld */,
+			);
+			path = AudioJournal;
+			sourceTree = "<group>";
+		};
+		DB930D7D28BD0D320014A619 /* AudioJournalTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB930D7E28BD0D320014A619 /* AudioJournalTests.m */,
+			);
+			path = AudioJournalTests;
+			sourceTree = "<group>";
+		};
+		DB930D8728BD0D320014A619 /* AudioJournalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB930D8828BD0D320014A619 /* AudioJournalUITests.m */,
+				DB930D8A28BD0D320014A619 /* AudioJournalUITestsLaunchTests.m */,
+			);
+			path = AudioJournalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB930D5B28BD0D310014A619 /* AudioJournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB930D8E28BD0D320014A619 /* Build configuration list for PBXNativeTarget "AudioJournal" */;
+			buildPhases = (
+				DB930D5828BD0D310014A619 /* Sources */,
+				DB930D5928BD0D310014A619 /* Frameworks */,
+				DB930D5A28BD0D310014A619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioJournal;
+			productName = AudioJournal;
+			productReference = DB930D5C28BD0D310014A619 /* AudioJournal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB930D7928BD0D320014A619 /* AudioJournalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB930D9128BD0D320014A619 /* Build configuration list for PBXNativeTarget "AudioJournalTests" */;
+			buildPhases = (
+				DB930D7628BD0D320014A619 /* Sources */,
+				DB930D7728BD0D320014A619 /* Frameworks */,
+				DB930D7828BD0D320014A619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB930D7C28BD0D320014A619 /* PBXTargetDependency */,
+			);
+			name = AudioJournalTests;
+			productName = AudioJournalTests;
+			productReference = DB930D7A28BD0D320014A619 /* AudioJournalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB930D8328BD0D320014A619 /* AudioJournalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB930D9428BD0D320014A619 /* Build configuration list for PBXNativeTarget "AudioJournalUITests" */;
+			buildPhases = (
+				DB930D8028BD0D320014A619 /* Sources */,
+				DB930D8128BD0D320014A619 /* Frameworks */,
+				DB930D8228BD0D320014A619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB930D8628BD0D320014A619 /* PBXTargetDependency */,
+			);
+			name = AudioJournalUITests;
+			productName = AudioJournalUITests;
+			productReference = DB930D8428BD0D320014A619 /* AudioJournalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB930D5428BD0D310014A619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DB930D5B28BD0D310014A619 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DB930D7928BD0D320014A619 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DB930D5B28BD0D310014A619;
+					};
+					DB930D8328BD0D320014A619 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DB930D5B28BD0D310014A619;
+					};
+				};
+			};
+			buildConfigurationList = DB930D5728BD0D310014A619 /* Build configuration list for PBXProject "AudioJournal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB930D5328BD0D310014A619;
+			productRefGroup = DB930D5D28BD0D310014A619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB930D5B28BD0D310014A619 /* AudioJournal */,
+				DB930D7928BD0D320014A619 /* AudioJournalTests */,
+				DB930D8328BD0D320014A619 /* AudioJournalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB930D5A28BD0D310014A619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB930D7228BD0D320014A619 /* LaunchScreen.storyboard in Resources */,
+				DB930D6F28BD0D320014A619 /* Assets.xcassets in Resources */,
+				DB930D6A28BD0D310014A619 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB930D7828BD0D320014A619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB930D8228BD0D320014A619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB930D5828BD0D310014A619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB930D7528BD0D320014A619 /* main.m in Sources */,
+				DB930D6728BD0D310014A619 /* ViewController.m in Sources */,
+				DB930D6128BD0D310014A619 /* AppDelegate.m in Sources */,
+				DB930D6D28BD0D310014A619 /* AudioJournal.xcdatamodeld in Sources */,
+				DB930D6428BD0D310014A619 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB930D7628BD0D320014A619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB930D7F28BD0D320014A619 /* AudioJournalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB930D8028BD0D320014A619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB930D8B28BD0D320014A619 /* AudioJournalUITestsLaunchTests.m in Sources */,
+				DB930D8928BD0D320014A619 /* AudioJournalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB930D7C28BD0D320014A619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB930D5B28BD0D310014A619 /* AudioJournal */;
+			targetProxy = DB930D7B28BD0D320014A619 /* PBXContainerItemProxy */;
+		};
+		DB930D8628BD0D320014A619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB930D5B28BD0D310014A619 /* AudioJournal */;
+			targetProxy = DB930D8528BD0D320014A619 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB930D6828BD0D310014A619 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB930D6928BD0D310014A619 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB930D7028BD0D320014A619 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB930D7128BD0D320014A619 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB930D8C28BD0D320014A619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB930D8D28BD0D320014A619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB930D8F28BD0D320014A619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMDCTLPM83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudioJournal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appx.audiojournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB930D9028BD0D320014A619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMDCTLPM83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudioJournal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appx.audiojournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB930D9228BD0D320014A619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMDCTLPM83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appx.AudioJournalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioJournal.app/AudioJournal";
+			};
+			name = Debug;
+		};
+		DB930D9328BD0D320014A619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMDCTLPM83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appx.AudioJournalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioJournal.app/AudioJournal";
+			};
+			name = Release;
+		};
+		DB930D9528BD0D320014A619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMDCTLPM83;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appx.AudioJournalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudioJournal;
+			};
+			name = Debug;
+		};
+		DB930D9628BD0D320014A619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMDCTLPM83;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appx.AudioJournalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudioJournal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB930D5728BD0D310014A619 /* Build configuration list for PBXProject "AudioJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB930D8C28BD0D320014A619 /* Debug */,
+				DB930D8D28BD0D320014A619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB930D8E28BD0D320014A619 /* Build configuration list for PBXNativeTarget "AudioJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB930D8F28BD0D320014A619 /* Debug */,
+				DB930D9028BD0D320014A619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB930D9128BD0D320014A619 /* Build configuration list for PBXNativeTarget "AudioJournalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB930D9228BD0D320014A619 /* Debug */,
+				DB930D9328BD0D320014A619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB930D9428BD0D320014A619 /* Build configuration list for PBXNativeTarget "AudioJournalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB930D9528BD0D320014A619 /* Debug */,
+				DB930D9628BD0D320014A619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB930D6B28BD0D310014A619 /* AudioJournal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB930D6C28BD0D310014A619 /* AudioJournal.xcdatamodel */,
+			);
+			currentVersion = DB930D6C28BD0D310014A619 /* AudioJournal.xcdatamodel */;
+			path = AudioJournal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB930D5428BD0D310014A619 /* Project object */;
+}
