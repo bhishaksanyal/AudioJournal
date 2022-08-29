@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-AudioJournal-AudioJournalUITests/Pods-AudioJournal-AudioJournalUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/AFNetworking-RACExtensions/AFNetworking_RACExtensions.framework
+${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework
