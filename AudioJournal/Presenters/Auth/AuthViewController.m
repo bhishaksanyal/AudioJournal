@@ -1,17 +1,17 @@
 //
-//  ViewController.m
+//  AuthViewController.m
 //  AudioJournal
 //
 //  Created by Bhishak Sanyal on 29/08/22.
 //
 
-#import "ViewController.h"
+#import "AuthViewController.h"
 
-@interface ViewController ()
+@interface AuthViewController ()
 
 @end
 
-@implementation ViewController
+@implementation AuthViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
