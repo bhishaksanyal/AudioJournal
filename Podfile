@@ -7,6 +7,7 @@ target 'AudioJournal' do
 
   # Pods for AudioJournal
 	pod 'AFNetworking-RACExtensions'
+  pod 'SCNetworkReachability'
 
   target 'AudioJournalTests' do
     inherit! :search_paths

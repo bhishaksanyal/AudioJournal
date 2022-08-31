@@ -9,6 +9,20 @@
 /* Begin PBXBuildFile section */
 		7D92858C2244094038EE381D /* Pods_AudioJournal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CA3CA3B75C869E9EEE935E /* Pods_AudioJournal.framework */; };
 		863D609392225D18104284A6 /* Pods_AudioJournal_AudioJournalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2480839C2884E50ADB19CB /* Pods_AudioJournal_AudioJournalUITests.framework */; };
+		DB18D29D28BF7FE60053C5B4 /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB18D29128BF7FE60053C5B4 /* SourceSansPro-Light.otf */; };
+		DB18D29E28BF7FE60053C5B4 /* SourceSansPro-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB18D29228BF7FE60053C5B4 /* SourceSansPro-LightIt.otf */; };
+		DB18D29F28BF7FE60053C5B4 /* SourceSansPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB18D29328BF7FE60053C5B4 /* SourceSansPro-SemiboldIt.otf */; };
+		DB18D2A028BF7FE60053C5B4 /* SourceSansPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB18D29428BF7FE60053C5B4 /* SourceSansPro-It.otf */; };
+		DB18D2A128BF7FE60053C5B4 /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB18D29528BF7FE60053C5B4 /* SourceSansPro-Bold.otf */; };
+		DB18D2A228BF7FE60053C5B4 /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB18D29628BF7FE60053C5B4 /* SourceSansPro-Regular.otf */; };
+		DB18D2A328BF7FE60053C5B4 /* SourceSansPro-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB18D29728BF7FE60053C5B4 /* SourceSansPro-BoldIt.otf */; };
+		DB18D2A428BF7FE60053C5B4 /* SourceSansPro-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB18D29828BF7FE60053C5B4 /* SourceSansPro-BlackIt.otf */; };
+		DB18D2A528BF7FE60053C5B4 /* SourceSansPro-ExtraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB18D29928BF7FE60053C5B4 /* SourceSansPro-ExtraLightIt.otf */; };
+		DB18D2A628BF7FE60053C5B4 /* SourceSansPro-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB18D29A28BF7FE60053C5B4 /* SourceSansPro-ExtraLight.otf */; };
+		DB18D2A728BF7FE60053C5B4 /* SourceSansPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB18D29B28BF7FE60053C5B4 /* SourceSansPro-Semibold.otf */; };
+		DB18D2A828BF7FE60053C5B4 /* SourceSansPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB18D29C28BF7FE60053C5B4 /* SourceSansPro-Black.otf */; };
+		DB18D2AB28BFB20C0053C5B4 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18D2AA28BFB20C0053C5B4 /* Common.m */; };
+		DB18D2AE28BFBC0F0053C5B4 /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = DB18D2AD28BFBC0F0053C5B4 /* Router.m */; };
 		DB930D6128BD0D310014A619 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB930D6028BD0D310014A619 /* AppDelegate.m */; };
 		DB930D6428BD0D310014A619 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB930D6328BD0D310014A619 /* SceneDelegate.m */; };
 		DB930D6728BD0D310014A619 /* AuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB930D6628BD0D310014A619 /* AuthViewController.m */; };
@@ -49,6 +63,22 @@
 		A475158CC78F429A574F9E7A /* Pods-AudioJournal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioJournal.debug.xcconfig"; path = "Target Support Files/Pods-AudioJournal/Pods-AudioJournal.debug.xcconfig"; sourceTree = "<group>"; };
 		BFFA5471C78CC9F19615D720 /* Pods-AudioJournal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioJournal.release.xcconfig"; path = "Target Support Files/Pods-AudioJournal/Pods-AudioJournal.release.xcconfig"; sourceTree = "<group>"; };
 		C84BF8E20F11FB2DDC2F8F93 /* Pods-AudioJournalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioJournalTests.debug.xcconfig"; path = "Target Support Files/Pods-AudioJournalTests/Pods-AudioJournalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB18D29128BF7FE60053C5B4 /* SourceSansPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.otf"; sourceTree = "<group>"; };
+		DB18D29228BF7FE60053C5B4 /* SourceSansPro-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightIt.otf"; sourceTree = "<group>"; };
+		DB18D29328BF7FE60053C5B4 /* SourceSansPro-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiboldIt.otf"; sourceTree = "<group>"; };
+		DB18D29428BF7FE60053C5B4 /* SourceSansPro-It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-It.otf"; sourceTree = "<group>"; };
+		DB18D29528BF7FE60053C5B4 /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
+		DB18D29628BF7FE60053C5B4 /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		DB18D29728BF7FE60053C5B4 /* SourceSansPro-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BoldIt.otf"; sourceTree = "<group>"; };
+		DB18D29828BF7FE60053C5B4 /* SourceSansPro-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackIt.otf"; sourceTree = "<group>"; };
+		DB18D29928BF7FE60053C5B4 /* SourceSansPro-ExtraLightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLightIt.otf"; sourceTree = "<group>"; };
+		DB18D29A28BF7FE60053C5B4 /* SourceSansPro-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.otf"; sourceTree = "<group>"; };
+		DB18D29B28BF7FE60053C5B4 /* SourceSansPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.otf"; sourceTree = "<group>"; };
+		DB18D29C28BF7FE60053C5B4 /* SourceSansPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.otf"; sourceTree = "<group>"; };
+		DB18D2A928BFB20C0053C5B4 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		DB18D2AA28BFB20C0053C5B4 /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		DB18D2AC28BFBC0F0053C5B4 /* Router.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
+		DB18D2AD28BFBC0F0053C5B4 /* Router.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
 		DB930D5C28BD0D310014A619 /* AudioJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB930D5F28BD0D310014A619 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB930D6028BD0D310014A619 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -132,10 +162,31 @@
 			path = Delegates;
 			sourceTree = "<group>";
 		};
+		DB18D29028BF7FE60053C5B4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB18D29128BF7FE60053C5B4 /* SourceSansPro-Light.otf */,
+				DB18D29228BF7FE60053C5B4 /* SourceSansPro-LightIt.otf */,
+				DB18D29328BF7FE60053C5B4 /* SourceSansPro-SemiboldIt.otf */,
+				DB18D29428BF7FE60053C5B4 /* SourceSansPro-It.otf */,
+				DB18D29528BF7FE60053C5B4 /* SourceSansPro-Bold.otf */,
+				DB18D29628BF7FE60053C5B4 /* SourceSansPro-Regular.otf */,
+				DB18D29728BF7FE60053C5B4 /* SourceSansPro-BoldIt.otf */,
+				DB18D29828BF7FE60053C5B4 /* SourceSansPro-BlackIt.otf */,
+				DB18D29928BF7FE60053C5B4 /* SourceSansPro-ExtraLightIt.otf */,
+				DB18D29A28BF7FE60053C5B4 /* SourceSansPro-ExtraLight.otf */,
+				DB18D29B28BF7FE60053C5B4 /* SourceSansPro-Semibold.otf */,
+				DB18D29C28BF7FE60053C5B4 /* SourceSansPro-Black.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		DB86791728BD20AB00CC77C3 /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				DB86791F28BD21C000CC77C3 /* Super */,
+				DB18D2A928BFB20C0053C5B4 /* Common.h */,
+				DB18D2AA28BFB20C0053C5B4 /* Common.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -151,6 +202,8 @@
 		DB86791928BD20BF00CC77C3 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				DB18D2AC28BFBC0F0053C5B4 /* Router.h */,
+				DB18D2AD28BFBC0F0053C5B4 /* Router.m */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -182,6 +235,7 @@
 		DB86791D28BD210400CC77C3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DB18D29028BF7FE60053C5B4 /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -231,10 +285,10 @@
 				DB86791728BD20AB00CC77C3 /* Common */,
 				DB86791B28BD20E500CC77C3 /* Entities */,
 				DB86791828BD20B500CC77C3 /* Presenters */,
-				DB86791D28BD210400CC77C3 /* Resources */,
 				DB86791928BD20BF00CC77C3 /* Router */,
 				DB86791C28BD20F400CC77C3 /* Storyboards */,
 				DB86791A28BD20CB00CC77C3 /* Views */,
+				DB86791D28BD210400CC77C3 /* Resources */,
 				DB930D6E28BD0D320014A619 /* Assets.xcassets */,
 				DB930D7428BD0D320014A619 /* main.m */,
 				DB930D7328BD0D320014A619 /* Info.plist */,
@@ -367,9 +421,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB18D2A728BF7FE60053C5B4 /* SourceSansPro-Semibold.otf in Resources */,
+				DB18D29E28BF7FE60053C5B4 /* SourceSansPro-LightIt.otf in Resources */,
+				DB18D2A328BF7FE60053C5B4 /* SourceSansPro-BoldIt.otf in Resources */,
+				DB18D29F28BF7FE60053C5B4 /* SourceSansPro-SemiboldIt.otf in Resources */,
+				DB18D2A228BF7FE60053C5B4 /* SourceSansPro-Regular.otf in Resources */,
+				DB18D2A128BF7FE60053C5B4 /* SourceSansPro-Bold.otf in Resources */,
+				DB18D2A028BF7FE60053C5B4 /* SourceSansPro-It.otf in Resources */,
+				DB18D2A528BF7FE60053C5B4 /* SourceSansPro-ExtraLightIt.otf in Resources */,
 				DB930D7228BD0D320014A619 /* LaunchScreen.storyboard in Resources */,
 				DB930D6F28BD0D320014A619 /* Assets.xcassets in Resources */,
+				DB18D29D28BF7FE60053C5B4 /* SourceSansPro-Light.otf in Resources */,
+				DB18D2A628BF7FE60053C5B4 /* SourceSansPro-ExtraLight.otf in Resources */,
 				DB930D6A28BD0D310014A619 /* Auth.storyboard in Resources */,
+				DB18D2A828BF7FE60053C5B4 /* SourceSansPro-Black.otf in Resources */,
+				DB18D2A428BF7FE60053C5B4 /* SourceSansPro-BlackIt.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,10 +563,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB18D2AB28BFB20C0053C5B4 /* Common.m in Sources */,
 				DB930D7528BD0D320014A619 /* main.m in Sources */,
 				DB930D6728BD0D310014A619 /* AuthViewController.m in Sources */,
 				DB930D6128BD0D310014A619 /* AppDelegate.m in Sources */,
 				DB930D6D28BD0D310014A619 /* AudioJournal.xcdatamodeld in Sources */,
+				DB18D2AE28BFBC0F0053C5B4 /* Router.m in Sources */,
 				DB930D6428BD0D310014A619 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

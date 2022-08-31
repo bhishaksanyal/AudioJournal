@@ -23,6 +23,9 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - macros_blocks (0.0.4):
+    - macros_blocks/core (= 0.0.4)
+  - macros_blocks/core (0.0.4)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -30,21 +33,30 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
+  - SCNetworkReachability (2.0.6):
+    - SCNetworkReachability/Core (= 2.0.6)
+  - SCNetworkReachability/Core (2.0.6):
+    - macros_blocks (~> 0.0.1)
 
 DEPENDENCIES:
   - AFNetworking-RACExtensions
+  - SCNetworkReachability
 
 SPEC REPOS:
   trunk:
     - AFNetworking
     - AFNetworking-RACExtensions
+    - macros_blocks
     - ReactiveCocoa
+    - SCNetworkReachability
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   AFNetworking-RACExtensions: a043c6b492fa892395ceb9d20bc4c94e96e08a57
+  macros_blocks: cf3ff5810b798f462def9f1e3999817dc45cf2df
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SCNetworkReachability: dbb0150b1a7a4579e148420132da19e718b955ce
 
-PODFILE CHECKSUM: 1c784083af6d06472c0f317d779dd65da184429c
+PODFILE CHECKSUM: 2955fb4df3cf85934f34deb8138b8c237f82f73f
 
 COCOAPODS: 1.11.3

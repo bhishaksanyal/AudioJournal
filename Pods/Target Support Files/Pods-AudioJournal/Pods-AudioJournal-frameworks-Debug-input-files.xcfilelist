@@ -2,3 +2,4 @@ ${PODS_ROOT}/Target Support Files/Pods-AudioJournal/Pods-AudioJournal-frameworks
 ${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
 ${BUILT_PRODUCTS_DIR}/AFNetworking-RACExtensions/AFNetworking_RACExtensions.framework
 ${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework
+${BUILT_PRODUCTS_DIR}/SCNetworkReachability/SCNetworkReachability.framework
